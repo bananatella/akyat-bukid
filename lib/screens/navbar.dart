@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:akyat_bukid/screens/newsfeed.dart';
+import 'package:akyat_bukid/screens/newsfeed/feed.dart';
 import 'package:akyat_bukid/screens/booking.dart';
 import 'package:akyat_bukid/screens/message.dart';
 import 'package:akyat_bukid/screens/notification.dart';

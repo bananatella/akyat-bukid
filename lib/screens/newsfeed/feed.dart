@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter/utils.dart';
+import 'package:akyat_bukid/screens/newsfeed/addStatus.dart';
 
 class ThreadPostData {
   final String userName;
@@ -49,7 +49,7 @@ class FeedPageState extends State<FeedPage> {
   }
 
   void _incrementCounter() {
-    print('write post');
+    Navigator.push(context,MaterialPageRoute(builder: (context) => AddStatus()));
   }
 
   @override
@@ -78,7 +78,7 @@ class FeedPageState extends State<FeedPage> {
       ),
     );
   }
-
+ 
   Widget _listTile (ThreadPostData data) {
     return Padding(
       padding: const EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 5.0),
